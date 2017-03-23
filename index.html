@@ -1,70 +1,66 @@
 <html>
 <head>
-	<title>Under Construction</title>
+	<title>Site 2</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<div class="row header">
-		<div class="col-3"><p class="logo">KWG</p></div>
-		<div class="col-9">
-			<div class="row nav">
-				<a href="" class="col-3" >About</a>
-				<a href="" class="col-3">Contact</a>
-				<a href="" class="col-3">This Page</a>
-				<a href="" class="col-3">Portfolio</a>
-			</div>
-		</div>
+	<!-- Header -->
+
+	<div class="container-fluid">
+		<header class="navbar ">
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Contact</a></li>
+				<li><a href="#">Portfolio</a></li>
+			</ul>
+		</header>
 	</div>
-	<div class="row intro">
-		<div class="col-7">
-			<div class="introduction">
-				<div class="text-block">
+	<!-- Intro -->
+	<div class="jumbotron">
+		<div class="container-fluid overlay">
+			<div class="row">
+				<div class="col-md-12 intro">
 					<p>Hello, I'm Keith.</p>
-					<p>I am a junior designer and developer.</p>
-					<p>I am currently looking for work.</p>
+					<p>I am a junior <span class="highlight">designer</span> and <span class="highlight">developer</span>.</p>
+					<p>I am currently available for work.</p>
 				</div>
 			</div>
 		</div>
-		<div class="col-5">
-			<div class="photo">
-				<img src="http://lorempixel.com/g/500/500" alt="image">
+	</div>
+
+	<!-- Portfolio -->
+	<div class="container-fluid portfolio">
+		<div class="row">
+			<div class="col-md-6 site">
+				<img class="img-responsive center-block" src="images/site1.png">
+				<div class="after">
+					<a href="https://keithwgrout.github.io/project1/"></a>
+				</div>
+			</div>
+			<div class="col-md-6 site">
+				<img class="img-responsive center-block" src="https://unsplash.it/600/300?blur">
+				<div class="coming"><h3 class="soon">Coming Soon</h3></div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6 site" >
+				<img class="img-responsive center-block" src="https://unsplash.it/600/300?blur">
+				<div class="coming"><h3 class="soon">Coming Soon</h3></div>
+			</div>
+			<div class="col-md-6 site">
+				<img class="img-responsive center-block" src="https://unsplash.it/600/300?blur">
+				<div class="coming"><h3 class="soon">Coming Soon</h3></div>
 			</div>
 		</div>
 	</div>
-	<div class="row portfolio">
-		<div class="col-4">
-			<div class="display">
-				<p class="text-block">COMING SOON</p>
-			</div>
-		</div>
-		<div class="col-4"><div class="display">
-				<p class="text-block">COMING SOON</p>
-			</div></div>
-		<div class="col-4"><div class="display">
-				<p class="text-block">COMING SOON</p>
-			</div></div>
-	</div>
+
+	<!-- Skills -->
+	<section class="skills"></section>
+
+	<!-- Footer -->
+	<footer>
+	</footer>
 </body>
 </html>
-
-<!-- This is a simple website created with HTML and CSS. It was done as a challenge to create a website in 4 hours, including an hour for design. 
-	The finished product looks fairly close to the design mockup, which was created with Sketch 3. 
-	I used a custom grid framework, with 12 columns.
-	The layout follows a commonly used portfolio layout. 
-	- Header: A logo and a few links.
-	- Introduction: A 'hello' message, along with a photo.
-	- Portfolio: A few links to portfolio pieces.
-
-	Post-mortem: The website is simple, but still has some issues.
-	1. Neither the CSS or HTML have been validated.
-	2. The links at the top of the page don't go anywhere or do anything.
-	3. On smaller screens, the layout smashes together. aka it is non-responsive. 
-	4. The CSS is all contained in one file. It might be a better idea to break it out into two files. This will make the layout less error prone in the future. 
-	5. Many CSS styles are repeated. I may have been able to make it more modular, making it less error prone, given extra time.
-	6. The CSS involves a layout hack for vertical centering that may be outdated. See comment inside stylesheet.
-	7. The design is ineffective insofar as being a major highlight piece for my portfolio, although to be fair, that wasn't the point of the exercise. 
-	8. Probably other stuff. 
-
-
-
--->
