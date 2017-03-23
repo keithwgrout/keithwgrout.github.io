@@ -1,7 +1,7 @@
 
 * {
+	color: white;
 	margin: 0px;
-	/*border: 1px solid red;*/
 	box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -11,6 +11,102 @@
 	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
+}
+.header {
+	height: 25%;
+	background-color: #534F88;
+}
+.logo {
+	font-family: impact;
+	position: relative;
+  	top: 50%;
+  	transform: translateY(-50%);
+	background-color:  #F07E7E;
+	padding: 30px;
+	font-size: 72px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%;
+	
+}
+a {
+	text-decoration: none;
+}
+.nav {
+	background-color: #F07E7E;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%;
+	margin-top: 25px;
+	font-size: 32px;
+	font-weight: lighter;
+	font-family: Helvetica, sans-serif;
+	padding: 20px;
+}
+.intro {
+	height: 75%;
+	background-color: #F07E7E;
+}
+
+/*
+ 	Layout hack for vertical centering:
+ 	
+	position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+ */
+.text-block {
+	position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.introduction {
+    background-color: purple;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 36px;
+    font-weight: lighter;
+	font-family: Helvetica, sans-serif;
+	padding: 50px;	
+	height: 75%;
+}
+img	{
+	max-height: 100%;
+    
+}
+.photo {
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 75%;
+	position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.portfolio {
+	height: 500px;
+	background-color: #534F88;
+}
+.display {
+    background-color: #F07E7E;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 36px;
+    font-weight: lighter;
+	font-family: Helvetica, sans-serif;
+	padding: 50px;	
+	height: 75%;
+
 }
 .col-1 {
 	width: 8.33%;
@@ -48,67 +144,3 @@
 .col-12 {
 	width: 100%;
 }
-
-.header {
-	min-height: 250px;
-}
-.logo {
-
-	text-align: center;
-	position: relative;
-	top: 50%;
-	transform: translateY(-50%);
-	font-size: 6em;
-	font-family: impact;
-}
-.title {
-	margin-bottom: 1em;
-	text-align: center;
-}
-.left {
-	padding: 20px;
-}
-
-.right {
-	padding: 20px;
-}
-.article {
-	margin-top: 50px;
-}
-.list {
-	min-height: 150px;
-	text-align: center;
-	list-style-type: none;
-	padding: 0;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
