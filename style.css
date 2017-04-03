@@ -1,96 +1,31 @@
 * {
-	/*border: 1px solid red;*/
+	font: 16px Helvetica, sans-serif;
+	border: 1px solid red;
+	
 }
 
-.nav a {
-	font-size: 2em;
-	color: #757575;
+body {
+	box-sizing: border-box;
+	-ms-box-sizing:border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	margin: 0;
+
 }
 
-.navbar {
-	min-height: 100px;
+.container {
+	margin-top: 50px;
+	margin: 0 auto;
+	max-width: 1200px;
+	padding: 0 1rem;
+	
 }
 
-.nav {
-	margin-top: 45px;
+.responsive-image {
+	max-width: 100%;
+	height: auto;
 }
 
-.jumbotron {
-	background: url(https://unsplash.it/g/1440/800);
-	background-repeat: no-repeat;
-	background-size: cover;
-	min-height: 800px;
-	padding: 0;
-}
-
-.intro {
-	color: antiquewhite;
-}
-
-.overlay {
-	width: 100%;
-	height: 100%;
-	background-color: rgba(0,0,0,.5);
-}
-
-.jumbotron .row {
-	margin-top: 300px;
-	margin-left: 50px;
-}
-
-.portfolio .row {
-	margin-bottom: 50px;
-}
-
-.site {
-	position: relative;
-	width: 600px;
-	height: 300px;
-	overflow: hidden;
-}
-
-.site .after {
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	top: 0;
-	left: 0;
-}
-
-.site .coming {
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	top: 0;
-	left: 0;
-	color: antiquewhite;
-	display: none;
-}
-
-.after a {
+.cell img {
 	display: block;
-	width: 100%;
-	height: 100%;
-}
-
-.site:hover .after{
-	background-color: rgba(0,0,0,.5);
-}
-
-.soon {
-	position: relative;
-  	top: 50%;
-  	transform: translateY(-50%);
-	text-align: center;
-}
-
-
-.site:hover .coming{
-	background-color: rgba(0,0,0,.5);
-	display: block;
-
-}
-
-.highlight {
-	color: red;
 }
