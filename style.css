@@ -1,6 +1,6 @@
 * {
 	font: 16px Helvetica, sans-serif;
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 	
 }
 
@@ -28,4 +28,24 @@ body {
 
 .cell img {
 	display: block;
+	margin: 1rem;
+}
+
+@media screen and (min-width: 600px) {
+	.grid {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.cell {
+		width: calc(50% - 2rem);
+	}
+}
+
+@media screen and (min-width: 1000px) {
+	
+
+	.cell {
+		width: calc(33.3333% - 2rem);
+	}
 }
